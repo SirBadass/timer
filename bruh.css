@@ -1,0 +1,42 @@
+.counter {
+    color: #F9E9EC;
+    background-color: transparent;
+    font-family: system-ui;
+    text-align: center;
+    font-size: 52pt;
+}
+.reverse_counter {
+    color: #F9E9EC;
+    background-color: transparent;
+    font-family: system-ui;
+    text-align: center;
+    font-size: 52pt;
+}
+title {
+    -webkit-text-fill-color: #F9E9EC;
+    font-size: large;
+    align-self: flex-start;
+    display: flex;
+}
+.item {
+    background-color: #F9E9EC;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 5px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui;
+}
+body {
+    background-color: black;
+}
+#counter_assets {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#reverse_counter_asset_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
